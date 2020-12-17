@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+:root {
+    --b-color:#242424;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    background: var(--b-color);
+}
+
+/* INDEX PAGE ============================== */
+
+.main {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 200px;
+}
+
+.title {
+    text-align: center;
+    color: #fff;
+}
+
+.form form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.form form input {
+    border-radius: 6px;
+    border: none;
+    padding: 20px 10px;
+    width: 75%;
+    margin-right: 15px;
+}
+
+select {
+    font-size: 16px;
+    padding: 5px;
+    height: 40px;
+    width: 25%;
+    border-radius: 6px;
+}
+
+.custom-select {
+    width: 74%;
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.form form button {
+    cursor: pointer;
+    width: 30%;
+    border-radius: 6px;
+    border: none;
+    padding: 20px 10px;
+    margin-top: 30px;
+    font-size: 24px;
+}
+
+.form form button:hover {
+    background-color: #cccccc;
+}
+
+/* CHAT PAGE ==============================*/
+
+.heading {
+    color: #fff;
+    display: flex;
+    margin-bottom: 20px;
+}
+
+#chat-form input {
+    padding: 20px 10px;
+    border-radius: 6px;
+    border: none;
+    margin-right: 10px;
+    width: 50%;
+}
+
+#chat-form button {
+    padding: 20px 10px;
+    border-radius: 6px;
+    border:none;
+    width: 25%;
+    cursor: pointer;
+}
+
+#chat-form button:hover {
+    background-color: #d6d6d6;
+}
+
+.message {
+    margin: 20px 5px;
+    background-color: #fff;
+    border-radius: 6px;
+    padding: 10px;
+    width: 56%;
+    display: flex;
+}
+
+.msgSender {
+    margin-right: 10px;
+    color: #7a56ff;
+    font-weight: bold;
+}
+
+#users {
+    margin-top: 0px;
+    color: #7a56ff;
+}

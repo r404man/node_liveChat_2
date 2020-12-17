@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <div class="main">
+        <div class="heading">
+            <div class="title-text">
+                Room name : 
+            </div>
+            <div class="title-room" id="room">
+
+            </div>
+        </div>
+        <div class="heading">
+            <div class="title-text">
+                Users : 
+            </div>
+            <ul class="users" id="users">
+
+            </ul>
+        </div>
+        <form id="chat-form">
+            <input type="text" class="messageInput" id="message" placeholder="insert your message" required>
+            <button type="submit">Send</button>
+        </form>
+        <div class="messages" id="message-list">
+
+        </div>
+    </div>
+
+    <!-- <script src="https://cdn.socket.io/socket.io-3.0.1.min.js"></script> -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/qs/6.9.4/qs.min.js"
+        integrity="sha512-BHtomM5XDcUy7tDNcrcX1Eh0RogdWiMdXl3wJcKB3PFekXb3l5aDzymaTher61u6vEZySnoC/SAj2Y/p918Y3w=="
+        crossorigin="anonymous"></script>
+
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
